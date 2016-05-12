@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testng.TestNG1" duration-ms="20043" started-at="2016-05-12T08:31:34Z" finished-at="2016-05-12T08:31:54Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="20043" started-at="2016-05-12T08:31:34Z" finished-at="2016-05-12T08:31:54Z">
+      <class name="testng.TestNG1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.TestNG1@5d624da6]" name="setUp" is-config="true" duration-ms="7272" started-at="2016-05-12T14:01:34Z" finished-at="2016-05-12T14:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.TestNG1@5d624da6]" name="setUp" is-config="true" duration-ms="4421" started-at="2016-05-12T14:01:41Z" finished-at="2016-05-12T14:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSampleLoginApplication()[pri:0, instance:testng.TestNG1@5d624da6]" name="testSampleLoginApplication" duration-ms="6818" started-at="2016-05-12T14:01:46Z" finished-at="2016-05-12T14:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSampleLoginApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.TestNG1@5d624da6]" name="tearDown" is-config="true" duration-ms="1494" started-at="2016-05-12T14:01:53Z" finished-at="2016-05-12T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.TestNG1@5d624da6]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-05-12T14:01:54Z" finished-at="2016-05-12T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.TestNG1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- testng.TestNG1 -->
+</testng-results>
