@@ -156,40 +156,7 @@
       <plugin>
         <groupId>com.oracle.weblogic</groupId> 
         <artifactId>weblogic-maven-plugin</artifactId> 
-        <version>12.2.1-0-0</version> 
-        <!--
-        You can find and redefine the following variables in the parent pom file arccording to your environment.
-  
-        oracleMiddlewareHome
-        oracleServerUrl
-        oracleUsername
-        oraclePassword
-        oracleServerName
-        -->
-        <configuration> 
-          <middlewareHome>${oracleMiddlewareHome}</middlewareHome>
-        </configuration> 
-        <executions>
-          <!--Deploy the application to the server-->
-          <execution>
-            <phase>pre-integration-test</phase> 
-            <goals> 
-              <goal>deploy</goal> 
-            </goals>
-            <configuration> 
-              <!--The admin URL where the app is deployed. Here use the plugin's default value t3://localhost:7001-->
-              <!--adminurl>${oracleServerUrl}</adminurl-->
-              <user>${oracleUsername}</user> 
-              <password>${oraclePassword}</password>
-              <!--The location of the file or directory to be deployed-->
-              <source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source>
-              <!--The target servers where the application is deployed. Here use the plugin's default value AdminServer-->
-              <!--targets>${oracleServerName}</targets-->
-              <verbose>true</verbose> 
-              <name>${project.build.finalName}</name>
-            </configuration> 
-          </execution> 
-        </executions>
+        <version>12.2.1-0-0</version>   
       </plugin>
     </plugins>
   </build>
